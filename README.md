@@ -1,7 +1,9 @@
 # usb-hidden
 
+从PlugX-usb看到的技术，实现一下
+
 1. 它创建以下目录结构：
-    *<usb volume>* :\u00A0\u00A0\RECYCLER.BIN\files。示例：*F:\ \ \RECYCLER.BIN\files*。
+    `*<usb volume>* :\u00A0\u00A0\RECYCLER.BIN\files`。示例：*F:\ \ \RECYCLER.BIN\files*。
 2. 它在每个文件夹中创建一个名为 desktop.ini 的隐藏文件，该文件指定文件夹的图标。该文件包含以下数据：
 
 ```
